@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -69,64 +71,74 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.898" />
+        app:layout_constraintVertical_bias="0.904" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="131dp"
+        android:layout_height="53dp"
+        android:background="@drawable/black"
         android:text="@string/sign_up"
+        android:textAllCaps="false"
         android:textColor="#FF6C61"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintHorizontal_bias="0.967"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingClass" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginEnd="28dp"
         android:background="@drawable/oval"
-        android:text="@string/email"
+        android:hint="Email"
         android:gravity="start|center_vertical"
         android:paddingStart="20dp"
         android:paddingEnd="0dp"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textVisiblePassword|textNoSuggestions"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.392"
+        tools:ignore="HardcodedText" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/button1"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginEnd="28dp"
         android:background="@drawable/oval"
-        android:text="@string/Password"
+        android:hint="@string/password"
         android:gravity="start|center_vertical"
+        android:password="true"
         android:paddingStart="20dp"
         android:paddingEnd="0dp"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textVisiblePassword|textNoSuggestions"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintVertical_bias="0.52"
+        tools:ignore="MissingClass" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
@@ -144,5 +156,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.679" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
