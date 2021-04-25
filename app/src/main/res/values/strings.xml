@@ -24,6 +24,8 @@
     <string name="more">more …</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="success">Welcome</string>
+    <string name="second">Please do not leave field empty</string>
 
 
 </resources>
