@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.First_task"
+        android:usesCleartextTraffic="true"
         android:allowBackup="false">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -16,12 +17,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
         <activity android:name=".signup" />
+
         <activity android:name=".signup2">
 
         </activity>
+        <activity android:name=".user_account">
+
+        </activity>
+        <activity android:name=".activity_user">
+
+        </activity>
+
+
     </application>
 
 </manifest>

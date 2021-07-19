@@ -5,7 +5,7 @@
     <string name="learning">Learning</string>
     <string name="new_here">New here?</string>
     <string name="sign_up">Sign up</string>
-    <string name="todo">TODO</string>
+
 
     <string name="Password">Password</string>
     <string name="Login">Login</string>
@@ -26,6 +26,25 @@
     <string name="password">Password</string>
     <string name="success">Welcome</string>
     <string name="second">Please do not leave field empty</string>
+
+    <string name="to_be_designed_later">To be designed later</string>
+
+    <string name="contact1">Contact</string>
+    <string name="college1">College</string>
+    <string name="name1">Name</string>
+    <string name="branch1">Branch</string>
+
+    <string name="todo1">TODO</string>
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="open_book">Open Book</string>
+    <string name="renew">Renew</string>
+    <string name="plus">Plus</string>
+    <string name="user">User</string>
+
 
 
 </resources>

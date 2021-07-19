@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home_1"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/ic_renew"
+        android:icon="@drawable/ic_renew_1"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/ic_plus"
+        android:icon="@drawable/ic_plus_1"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/ic_book"
+        android:icon="@drawable/ic_open_book_1"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/ic_user"
+        android:icon="@drawable/ic_user_1"
+        tools:ignore="MenuTitle" />
+
+</menu>
