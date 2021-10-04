@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     Button button2;
     Button button;
     Button button1;
+    Button button_new,button_new1;
     private FirebaseAuth mAuth;
 
     @Override
@@ -42,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         EditText button1 = (EditText) findViewById(R.id.button1);
         button10 = findViewById(R.id.button10);
         button2 = (Button) findViewById(R.id.button2);
+        //button_new = (Button)findViewById(R.id.button);
+
+        //button_new1 = (Button)findViewById(R.id.button1);
 
 
 
@@ -108,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("SetTextI18n")
     public void showToast() {
-        EditText button1 = (EditText) findViewById(R.id.button1);
+        EditText button11 = (EditText) findViewById(R.id.button1);
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.toast_layout, (ViewGroup) findViewById(R.id.toast_root));
 
@@ -129,8 +133,8 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void showToast1() {
 
-        EditText button = (EditText) findViewById(R.id.button);
-        EditText button1 = (EditText) findViewById(R.id.button1);
+      //  EditText buttonnew = (EditText) findViewById(R.id.button);
+//        EditText button11 = (EditText) findViewById(R.id.button1);
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.toast_layout, (ViewGroup) findViewById(R.id.toast_root));
 
@@ -146,8 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void Login(){
-        button = (Button)findViewById(R.id.button);
-        button1= (Button)findViewById(R.id.button1);
+
         String emaill = button.getText().toString();
         String passwordd = button1.getText().toString();
 
